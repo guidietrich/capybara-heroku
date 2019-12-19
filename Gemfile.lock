@@ -31,6 +31,7 @@ GEM
       gherkin (~> 4.0)
     cucumber-wire (0.0.1)
     diff-lcs (1.3)
+    ffi (1.9.18)
     ffi (1.9.18-x64-mingw32)
     gherkin (4.1.3)
     io-like (0.3.0)
@@ -41,13 +42,15 @@ GEM
     mini_portile2 (2.3.0)
     multi_json (1.12.2)
     multi_test (0.1.2)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
     nokogiri (1.8.1-x64-mingw32)
       mini_portile2 (~> 2.3.0)
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     public_suffix (3.0.0)
-    rack (2.0.3)
+    rack (2.0.8)
     rack-test (0.7.0)
       rack (>= 1.0, < 3)
     rubyzip (1.2.1)
@@ -61,6 +64,7 @@ GEM
       nokogiri (~> 1.3)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
